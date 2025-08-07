@@ -11,7 +11,7 @@ async function sendMessage() {
   userInput.value = '';
 
   try {
-    const res = await axios.post('http://localhost:3000/api/chat', {
+    const res = await axios.post('/api/chat', {
       message: userMsg
     });
 
@@ -59,4 +59,5 @@ async function sendMessage() {
       });
       alert('Thanks for donating!');
       e.target.reset();
+
     });
