@@ -1,0 +1,111 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f2f2f2;
+    padding: 20px;
+    margin: 0;
+}
+
+header {
+    text-align: center;
+    background: #c140d3;
+    color: rgb(7, 227, 51);
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0px 5px 15px rgba(244, 37, 178, 0.874);
+}
+
+header h1 {
+    font-size: 36px;
+    font-weight: 1000;
+    color: gold;
+}
+
+header p {
+    font-size: 18px;
+    font-weight: 900;
+    color: rgb(223, 141, 90);
+}
+
+.chatbox {
+    background: white;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.7);
+
+}
+
+.chatbox h2 {
+    font-size: 31px;
+    font-weight: bolder;
+    color: rgb(4, 242, 242);
+}
+
+#chat-log {
+    background: #eee;
+    padding: 10px;
+    height: 150px;
+    overflow-y: scroll;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.4);
+
+}
+
+.forms {
+    display: flex;
+    gap: 20px;
+    margin-top: 30px;
+
+}
+
+.form-card {
+    background: white;
+    flex: 1;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.8);
+}
+
+.form-card h3 {
+    font-size: 1.7rem;
+    color: rgb(66, 94, 158);
+    font-weight: 700;
+}
+
+input,
+textarea {
+    width: 100%;
+    margin: 7px 0px 5px 0px;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(240, 229, 229);
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.6);
+}
+
+button {
+    background-color: #36d738;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+#send {
+    background-color: #36d738;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+#send:hover {
+    background: #f7992d;
+}
+
+button:hover {
+    background: #117fd4;
+}

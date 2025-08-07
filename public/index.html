@@ -1,0 +1,51 @@
+
+ 
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Feed With Love</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Feed With Love 🍛</h1>
+    <p>Help someone get a meal today</p>
+  </header>
+
+  <section class="chatbox">
+    <h2>🤖 Chat with Food Bot (Gemini AI)</h2>
+    <div id="chat-log"></div>
+    <input id="chat-input" placeholder="Type your message..." />
+    <button onclick="sendMessage()" id="#">Send</button>
+  </section>
+
+  <section class="forms">
+    <div class="form-card">
+      <h3>Request a Meal 🙏</h3>
+      <form id="need-form">
+        <input type="text" name="Name" placeholder="Your Name" required />
+        <input type="text" name="Location" placeholder="Your Location" required />
+        <textarea name="Need" placeholder="What food do you need?" required></textarea>
+        <button type="submit">Request</button>
+      </form>
+    </div>
+
+    <div class="form-card">
+      <h3>Donate a Meal 💖</h3>
+      <form id="donate-form">
+        <input type="text" name="Donor" placeholder="Your Name" required />
+        <input type="text" name="Location" placeholder="Your City" required />
+        <textarea name="Offer" placeholder="Food you want to donate" required></textarea>
+        <button type="submit">Donate</button>
+      </form>
+    </div>
+  </section>
+
+<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+<script src="script.js"></script>
+
+</body>
+</html>
